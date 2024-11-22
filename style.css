@@ -13,7 +13,7 @@ body {
     /* justify-content: center; */
     align-items: center; /* Centraliza verticalmente */
     flex-direction: column;
-    height: 800px;
+    height: 910px;
     color: white !important;
 }
 
@@ -62,6 +62,7 @@ header {
     margin-top: 18px;
     max-width: 500px;
     padding: 24px;
+    padding-bottom: 1px;
 }
 
 .center {
@@ -70,6 +71,7 @@ header {
 
 
 main {
+    padding-top: 0px;
     max-width: 400px;
 }
 
@@ -77,6 +79,14 @@ main {
     text-align: justify;
 }
 
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+}
 
 
 @media (min-width: 1000px) {
@@ -91,4 +101,6 @@ main {
     header {
         max-width: 900px;
     }
+
+    
 }
